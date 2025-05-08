@@ -1,0 +1,340 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\Victor\\Desktop\\neon-evm\\token\\contracts\\CallSolanaHelperLib.sol": {
+      "lastModificationDate": 1746680736830,
+      "contentHash": "25ced2dfd77c6ffb82caad2f2afc8a11",
+      "sourceName": "contracts/CallSolanaHelperLib.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.26"
+      ],
+      "artifacts": [
+        "CallSolanaHelperLib"
+      ]
+    },
+    "C:\\Users\\Victor\\Desktop\\neon-evm\\token\\contracts\\TestNeonOracleToken.sol": {
+      "lastModificationDate": 1746680934267,
+      "contentHash": "6355188b5c9a1558aab8ee3f8f55b397",
+      "sourceName": "contracts/TestNeonOracleToken.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IERC20ForSPL.sol",
+        "./interfaces/ICallSolana.sol",
+        "./CallSolanaHelperLib.sol",
+        "./SolanaDataConverterLib.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.26"
+      ],
+      "artifacts": [
+        "TestNeonOracleToken"
+      ]
+    },
+    "C:\\Users\\Victor\\Desktop\\neon-evm\\token\\contracts\\interfaces\\IERC20ForSPL.sol": {
+      "lastModificationDate": 1746680889963,
+      "contentHash": "c75e6737a1637efb77f396182375b8f9",
+      "sourceName": "contracts/interfaces/IERC20ForSPL.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.26"
+      ],
+      "artifacts": [
+        "IERC20ForSPL"
+      ]
+    },
+    "C:\\Users\\Victor\\Desktop\\neon-evm\\token\\contracts\\interfaces\\ICallSolana.sol": {
+      "lastModificationDate": 1746680854269,
+      "contentHash": "ca35b15efaffdff92fc68f66a122c17a",
+      "sourceName": "contracts/interfaces/ICallSolana.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.26"
+      ],
+      "artifacts": [
+        "ICallSolana"
+      ]
+    },
+    "C:\\Users\\Victor\\Desktop\\neon-evm\\token\\contracts\\SolanaDataConverterLib.sol": {
+      "lastModificationDate": 1746680778562,
+      "contentHash": "ee921ed00a94aae2b17681f330db7f7c",
+      "sourceName": "contracts/SolanaDataConverterLib.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.26"
+      ],
+      "artifacts": [
+        "SolanaDataConverterLib"
+      ]
+    },
+    "C:\\Users\\Victor\\Desktop\\neon-evm\\token\\contracts\\ERC20ForSpl.sol": {
+      "lastModificationDate": 1746676832218,
+      "contentHash": "676b9cd29efb84ec39c77fcd010ca84d",
+      "sourceName": "contracts/ERC20ForSpl.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SPLToken.sol",
+        "./Metaplex.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0"
+      ],
+      "artifacts": [
+        "ERC20ForSpl",
+        "ERC20ForSplMintable"
+      ]
+    },
+    "C:\\Users\\Victor\\Desktop\\neon-evm\\token\\contracts\\Metaplex.sol": {
+      "lastModificationDate": 1746677342483,
+      "contentHash": "ff729f516f068398a6ab3ce793475cae",
+      "sourceName": "contracts/Metaplex.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0"
+      ],
+      "artifacts": [
+        "Metaplex"
+      ]
+    },
+    "C:\\Users\\Victor\\Desktop\\neon-evm\\token\\contracts\\SPLToken.sol": {
+      "lastModificationDate": 1746677311949,
+      "contentHash": "d9baebd69a2aa26ba9cfcca8f1d8719c",
+      "sourceName": "contracts/SPLToken.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0"
+      ],
+      "artifacts": [
+        "SPLToken"
+      ]
+    },
+    "C:\\Users\\Victor\\Desktop\\neon-evm\\token\\contracts\\ERC20ForSplFactory.sol": {
+      "lastModificationDate": 1746682637063,
+      "contentHash": "478db9008869a0942e86a1ec4f4bbadf",
+      "sourceName": "contracts/ERC20ForSplFactory.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ERC20ForSpl.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.12"
+      ],
+      "artifacts": [
+        "ERC20ForSplFactory"
+      ]
+    }
+  }
+}
