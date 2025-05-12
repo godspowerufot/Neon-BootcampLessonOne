@@ -51,16 +51,16 @@ async function main() {
   tx = await ERC20ForSplMintable.mint(user1.address, 1000 * 10 ** 9);
   await tx.wait(1);
 
-  // deploy TestNeonOracleToken contract
-  const TestNeonOracleToken = await ethers.deployContract(
-    "TestNeonOracleToken",
+  // deploy TGpUfotToken contract
+  const TGpUfotToken = await ethers.deployContract(
+    "TGpUfotToken",
     [ERC20ForSplMintable.target]
   );
-  await TestNeonOracleToken.waitForDeployment();
-  console.log(`TestNeonOracleToken deployed to ${TestNeonOracleToken.target}`);
+  await TGpUfotToken.waitForDeployment();
+  console.log(`TGpUfotToken deployed to ${TGpUfotToken.target}`);
 
   const contractPublicKey = ethers.encodeBase58(
-    await TestNeonOracleToken.getNeonAddress(TestNeonOracleToken.target)
+    await TGpUfotToken.getNeonAddress(TGpUfotToken.target)
   );
   console.log(contractPublicKey, "contractPublicKey");
 
@@ -102,16 +102,16 @@ async function main() {
   console.log(signature, "transaction sender & recipient ATA's creation");
 
   const amount = 10 * 10 ** 9;
-  tx = await ERC20ForSplMintable.approve(TestNeonOracleToken.target, amount);
+  tx = await ERC20ForSplMintable.approve(TGpUfotToken.target, amount);
   await tx.wait(1);
   console.log(tx, "erc20forspl approve");
 
-  tx = await TestNeonOracleToken.transfer(
+  tx = await TGpUfotToken.transfer(
     amount,
     config.utils.publicKeyToBytes32(randomSolanaAccount.publicKey.toBase58())
   );
   await tx.wait(1);
-  console.log(tx, "TestNeonOracleToken transfer");
+  console.log(tx, "TGpUfotToken transfer");
 }
 
 main().catch((error) => {

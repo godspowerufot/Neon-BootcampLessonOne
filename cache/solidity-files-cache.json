@@ -1,9 +1,9 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "C:\\Users\\Victor\\Desktop\\neon-evm\\token\\contracts\\CallSolanaHelperLib.sol": {
-      "lastModificationDate": 1746680736830,
-      "contentHash": "25ced2dfd77c6ffb82caad2f2afc8a11",
+    "/Users/mac/Desktop/mac-work/Neon-Evm-bootcamp/task1/ERC-20-for-SPL/contracts/CallSolanaHelperLib.sol": {
+      "lastModificationDate": 1746927434695,
+      "contentHash": "f7ba37119e06a07ae7e9a026cefb8af9",
       "sourceName": "contracts/CallSolanaHelperLib.sol",
       "solcConfig": {
         "version": "0.8.28",
@@ -37,9 +37,9 @@
         "CallSolanaHelperLib"
       ]
     },
-    "C:\\Users\\Victor\\Desktop\\neon-evm\\token\\contracts\\TestNeonOracleToken.sol": {
-      "lastModificationDate": 1746680934267,
-      "contentHash": "6355188b5c9a1558aab8ee3f8f55b397",
+    "/Users/mac/Desktop/mac-work/Neon-Evm-bootcamp/task1/ERC-20-for-SPL/contracts/TestNeonOracleToken.sol": {
+      "lastModificationDate": 1746927434697,
+      "contentHash": "f0d56782612fb7aee4262645e4bb0f18",
       "sourceName": "contracts/TestNeonOracleToken.sol",
       "solcConfig": {
         "version": "0.8.28",
@@ -78,45 +78,9 @@
         "TestNeonOracleToken"
       ]
     },
-    "C:\\Users\\Victor\\Desktop\\neon-evm\\token\\contracts\\interfaces\\IERC20ForSPL.sol": {
-      "lastModificationDate": 1746680889963,
-      "contentHash": "c75e6737a1637efb77f396182375b8f9",
-      "sourceName": "contracts/interfaces/IERC20ForSPL.sol",
-      "solcConfig": {
-        "version": "0.8.28",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.26"
-      ],
-      "artifacts": [
-        "IERC20ForSPL"
-      ]
-    },
-    "C:\\Users\\Victor\\Desktop\\neon-evm\\token\\contracts\\interfaces\\ICallSolana.sol": {
-      "lastModificationDate": 1746680854269,
-      "contentHash": "ca35b15efaffdff92fc68f66a122c17a",
+    "/Users/mac/Desktop/mac-work/Neon-Evm-bootcamp/task1/ERC-20-for-SPL/contracts/interfaces/ICallSolana.sol": {
+      "lastModificationDate": 1746927434697,
+      "contentHash": "7ad5da877b14b7ea7199e14023b3548e",
       "sourceName": "contracts/interfaces/ICallSolana.sol",
       "solcConfig": {
         "version": "0.8.28",
@@ -150,9 +114,45 @@
         "ICallSolana"
       ]
     },
-    "C:\\Users\\Victor\\Desktop\\neon-evm\\token\\contracts\\SolanaDataConverterLib.sol": {
-      "lastModificationDate": 1746680778562,
-      "contentHash": "ee921ed00a94aae2b17681f330db7f7c",
+    "/Users/mac/Desktop/mac-work/Neon-Evm-bootcamp/task1/ERC-20-for-SPL/contracts/interfaces/IERC20ForSPL.sol": {
+      "lastModificationDate": 1746927434698,
+      "contentHash": "925ec3e535cec57e2edb44d1394024d3",
+      "sourceName": "contracts/interfaces/IERC20ForSPL.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.26"
+      ],
+      "artifacts": [
+        "IERC20ForSPL"
+      ]
+    },
+    "/Users/mac/Desktop/mac-work/Neon-Evm-bootcamp/task1/ERC-20-for-SPL/contracts/SolanaDataConverterLib.sol": {
+      "lastModificationDate": 1746927434696,
+      "contentHash": "c1e8c61df780b957258088d3a54012fd",
       "sourceName": "contracts/SolanaDataConverterLib.sol",
       "solcConfig": {
         "version": "0.8.28",
@@ -186,9 +186,9 @@
         "SolanaDataConverterLib"
       ]
     },
-    "C:\\Users\\Victor\\Desktop\\neon-evm\\token\\contracts\\ERC20ForSpl.sol": {
-      "lastModificationDate": 1746676832218,
-      "contentHash": "676b9cd29efb84ec39c77fcd010ca84d",
+    "/Users/mac/Desktop/mac-work/Neon-Evm-bootcamp/task1/ERC-20-for-SPL/contracts/ERC20ForSpl.sol": {
+      "lastModificationDate": 1746927434695,
+      "contentHash": "d9d06c9381c467b0930daed56191b560",
       "sourceName": "contracts/ERC20ForSpl.sol",
       "solcConfig": {
         "version": "0.8.28",
@@ -226,45 +226,9 @@
         "ERC20ForSplMintable"
       ]
     },
-    "C:\\Users\\Victor\\Desktop\\neon-evm\\token\\contracts\\Metaplex.sol": {
-      "lastModificationDate": 1746677342483,
-      "contentHash": "ff729f516f068398a6ab3ce793475cae",
-      "sourceName": "contracts/Metaplex.sol",
-      "solcConfig": {
-        "version": "0.8.28",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.7.0"
-      ],
-      "artifacts": [
-        "Metaplex"
-      ]
-    },
-    "C:\\Users\\Victor\\Desktop\\neon-evm\\token\\contracts\\SPLToken.sol": {
-      "lastModificationDate": 1746677311949,
-      "contentHash": "d9baebd69a2aa26ba9cfcca8f1d8719c",
+    "/Users/mac/Desktop/mac-work/Neon-Evm-bootcamp/task1/ERC-20-for-SPL/contracts/SPLToken.sol": {
+      "lastModificationDate": 1746927434696,
+      "contentHash": "bead815bd8debbcb2a9ac961ac6052e0",
       "sourceName": "contracts/SPLToken.sol",
       "solcConfig": {
         "version": "0.8.28",
@@ -298,9 +262,45 @@
         "SPLToken"
       ]
     },
-    "C:\\Users\\Victor\\Desktop\\neon-evm\\token\\contracts\\ERC20ForSplFactory.sol": {
-      "lastModificationDate": 1746682637063,
-      "contentHash": "478db9008869a0942e86a1ec4f4bbadf",
+    "/Users/mac/Desktop/mac-work/Neon-Evm-bootcamp/task1/ERC-20-for-SPL/contracts/Metaplex.sol": {
+      "lastModificationDate": 1746927434696,
+      "contentHash": "2b0eb10a02064ae68dd105ef01334a01",
+      "sourceName": "contracts/Metaplex.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0"
+      ],
+      "artifacts": [
+        "Metaplex"
+      ]
+    },
+    "/Users/mac/Desktop/mac-work/Neon-Evm-bootcamp/task1/ERC-20-for-SPL/contracts/ERC20ForSplFactory.sol": {
+      "lastModificationDate": 1746955707994,
+      "contentHash": "ea3d4da686f1b9e5e8db259b5b70a5ea",
       "sourceName": "contracts/ERC20ForSplFactory.sol",
       "solcConfig": {
         "version": "0.8.28",

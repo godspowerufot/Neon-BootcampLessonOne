@@ -47,5 +47,6 @@ contract ERC20ForSplFactory {
         allErc20ForSpl.push(erc20spl);
 
         emit ERC20ForSplCreated(_mint, erc20spl, allErc20ForSpl.length);
+ 
     }
 }
